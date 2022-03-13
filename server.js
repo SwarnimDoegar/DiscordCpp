@@ -44,6 +44,4 @@ client.on('message', msg => {
 }
 );
 
-client.login(process.env.clientid);
-
-
+client.login(process.env.CLIENT_TOKEN);
